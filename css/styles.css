@@ -1,0 +1,182 @@
+body {
+  font-family: Raleway, sans-serif;
+  color: white;
+}
+
+/*Center Text in All Sections*/
+.section {
+  text-align: center;
+}
+
+/*Navigation controls*/
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  border: 2px solid white;
+  opacity: .4;
+}
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+  background: white;
+  opacity:1;
+}
+
+#fp-nav ul li .fp-tooltip {
+  font-family: Raleway, sans-serif;
+}
+
+#intro {
+
+}
+
+.intro > h1 {
+  font-size: 48px;
+  margin: 0 auto;
+  -webkit-animation: fadein 1s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 1s;
+  /* Internet Explorer */
+  -o-animation: fadein 1s;
+  /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+.intro > p {
+  font-size: 22px;
+  margin: 0 auto;
+  -webkit-animation: fadein 3s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 3s;
+  /* Internet Explorer */
+  -o-animation: fadein 3s;
+  /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#intro-footer {
+ height:7%;
+ width:100%;
+ background-color:#36465d;
+ bottom:0;
+ position:absolute;
+ border-top: 2px solid #4c5d75;
+ -webkit-animation: slideup 3s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slideup 3s;
+  /* Firefox < 16 */
+  -ms-animation: slideup 3s;
+  /* Internet Explorer */
+  -o-animation: slideup 3s;
+  /* Opera < 12.1 */
+  animation: slideup 3s;
+}
+
+@keyframes slideup {
+    0%   {height: 0%;border-top: 0 solid #4c5d75;}
+    25%  {height: 0%;}
+    50%  {height: 0%;}
+    75%  {height: 0%;border-top: 0 solid #4c5d75;}
+    100% {height: 7%;border-top: 2px solid #4c5d75;}
+}
+/* Firefox < 16 */
+
+@-moz-keyframes slideup {
+    0%   {height: 0%;border-top: 0 solid #4c5d75;}
+    25%  {height: 0%;}
+    50%  {height: 0%;}
+    75%  {height: 0%;border-top: 0 solid #4c5d75;}
+    100% {height: 7%;border-top: 2px solid #4c5d75;}
+}
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes slideup {
+    0%   {height: 0%;border-top: 0 solid #4c5d75;}
+    25%  {height: 0%;}
+    50%  {height: 0%;}
+    75%  {height: 0%;border-top: 0 solid #4c5d75;}
+    100% {height: 7%;border-top: 2px solid #4c5d75;}
+}
+/* Internet Explorer */
+
+@-ms-keyframes slideup {
+    0%   {height: 0%;border-top: 0 solid #4c5d75;}
+    25%  {height: 0%;}
+    50%  {height: 0%;}
+    75%  {height: 0%;border-top: 0 solid #4c5d75;}
+    100% {height: 7%;border-top: 2px solid #4c5d75;}
+}
+/* Opera < 12.1 */
+
+@-o-keyframes slideup {
+    0%   {height: 0%;border-top: 0 solid #4c5d75;}
+    25%  {height: 0%;}
+    50%  {height: 0%;}
+    75%  {height: 0%;border-top: 0 solid #4c5d75;}
+    100% {height: 7%;border-top: 2px solid #4c5d75;}
+}
+
+#intro-footer-text {
+  height:100%;
+  transform: translateY(25%);
+  font-size:18px;
+}
+
+#intro-footer-about-me-link,
+#intro-footer-about-me-link:visited,
+#intro-footer-about-me-link:hover,
+#intro-footer-about-me-link:active
+{
+  text-decoration:none;
+  color:white;
+}
