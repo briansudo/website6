@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 
-/*Navigation controls*/
+/* ===== Navigation controls ===== */
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   border: 2px solid white;
   opacity: .4;
@@ -23,6 +23,7 @@ body {
   font-family: Raleway, sans-serif;
 }
 
+/* ===== INTRO ===== */
 #intro {
 
 }
@@ -179,4 +180,23 @@ body {
 {
   text-decoration:none;
   color:white;
+}
+
+/* ===== ABOUT ===== */
+#about-section {
+  text-align:left;
+}
+#about-section-header-text {
+  font-size: 36px;
+}
+
+#about-section-div {
+  height:100%;
+  padding-top:50px;
+  padding-left:100px;
+  padding-right:20px;
+}
+
+#about-section-text > p {
+  font-size: 22px;
 }
