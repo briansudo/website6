@@ -218,6 +218,11 @@ body {
   }
 }
 
-#about-section-text {
-  
+/* ===== PROJECTS ===== */
+.fp-controlArrow.fp-prev {
+  left: 50px;
+}
+#projects-first-img {
+  max-width:100%;
+  max-height:100%;
 }
