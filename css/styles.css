@@ -296,14 +296,40 @@ a:active {
   max-height:100%;
 }
 
-#habito-left {
-  width:60%;
-  float:left;
+#habito-right {
+ margin:0 20px 0 20px;
 }
 
-#habito-right {
-  width:35%;
-  text-align:left;
-  float:left;
-  margin-top:50px;
+#habito-right > p {
+  font-size:12px;
 }
+@media only screen and (min-width: 580px) {
+  #habito-left {
+    width:60%;
+    float:left;
+  }
+
+  #habito-right {
+    width:35%;
+    text-align:left;
+    float:left;
+    margin: 0 auto;
+    margin-top:25px;
+  }
+  
+  #habito-right > h1 {
+    font-size:28px;
+  }
+  
+  #habito-right > p {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  #habito-right > p {
+    font-size:18px;
+  }
+}
+
+
