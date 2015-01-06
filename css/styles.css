@@ -269,6 +269,7 @@ a:active {
   }
 }
 /* ===== PROJECTS ===== */
+
 .fp-controlArrow.fp-prev {
   -webkit-transform: rotate(315deg);
   margin: 200px 20px;
@@ -292,44 +293,81 @@ a:active {
   max-height: 100%;
 }
 #projects-habito {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
 }
-
 #habito-right {
- margin:0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
-
-#habito-right > p {
-  font-size:12px;
+#snp-right {
+  float: right;
+}
+#snp-left {
+  float: left;
+  text-align: left;
+}
+#snp-img {
+  max-width: 50%;
+  max-height: 50%;
+  vertical-align: middle;
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#snp-left-body {
+  margin-left: 100px;
+  margin-right: 50px;
 }
 @media only screen and (min-width: 580px) {
   #habito-left {
-    width:60%;
-    float:left;
+    width: 60%;
+    float: left;
+    height: 100%;
   }
-
   #habito-right {
-    width:35%;
-    text-align:left;
-    float:left;
+    width: 35%;
+    text-align: left;
+    float: left;
     margin: 0 auto;
-    margin-top:25px;
+    margin-top: 25px;
+    height: 100%;
   }
-  
-  #habito-right > h1 {
-    font-size:28px;
+  #habito-right-body {
+    position: relative;
+    top: 50%;
+    transform: translateY(-75%);
   }
-  
-  #habito-right > p {
-    font-size:14px;
+  #snp-left-body {
+    position: relative;
+    top: 50%;
+    transform: translateY(-75%);
   }
+  #snp-left {
+    height: 100%;
+    width: 66%;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 18px;
+  }
+  #snp-right {
+  height: 100%;
+  width: 34%;
+  text-align: left;
 }
-
+}
+#snp-img {
+  max-width: 90%;
+  max-height: 90%;
+}
+}
 @media only screen and (min-width: 850px) {
-  #habito-right > p {
-    font-size:18px;
+  p {
+    font-size: 18px;
   }
 }
-
-
