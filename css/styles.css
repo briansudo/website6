@@ -228,10 +228,10 @@ body {
   transform: translateY(25%);
   font-size: 18px;
 }
-#intro-footer-about-me-link,
-#intro-footer-about-me-link:visited,
-#intro-footer-about-me-link:hover,
-#intro-footer-about-me-link:active {
+a,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
   color: white;
 }
@@ -297,10 +297,13 @@ body {
 }
 
 #habito-left {
-  width:75%;
+  width:60%;
   float:left;
 }
 
 #habito-right {
+  width:35%;
   text-align:left;
+  float:left;
+  margin-top:50px;
 }
