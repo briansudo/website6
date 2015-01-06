@@ -365,9 +365,46 @@ a:active {
   max-width: 90%;
   max-height: 90%;
 }
-}
+
 @media only screen and (min-width: 850px) {
   p {
     font-size: 18px;
   }
+}
+
+.more {
+  width:50%;
+  margin:0 auto;
+}
+
+/* ===== Contact ===== */
+.resume-button > a:hover {
+color: #444;
+text-decoration: none;
+}
+.github-button > a:hover {
+color: #333;
+text-decoration: none;
+}
+.linkedin-button > a:hover {
+color: #3893c4;
+text-decoration: none;
+}
+.email-button > a:hover {
+color: #3e6c93;
+text-decoration: none;
+}
+.google-plus-button > a:hover {
+color: #df5138;
+text-decoration: none;
+}
+.stack-overflow-button > a:hover {
+color: #fe8224;
+text-decoration: none;
+}
+#purple-github {
+  color: #a77dc2;
+}
+.contact > .fa-inverse {
+  color: #f2992e;
 }
