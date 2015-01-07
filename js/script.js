@@ -7,5 +7,5 @@ $(document).ready(function() {
     navigationTooltips: ['Intro', 'About', 'Projects', 'Connect']
   });
   loadCoverPic("#intro");
-  document.getElementById("projects-first-img").src = "img/projects_first.png";
+  document.getElementById("projects-first-img").src = "img/projects_first3.png";
 });
