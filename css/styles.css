@@ -226,6 +226,7 @@ body {
 #intro-footer-text {
   height: 100%;
   transform: translateY(25%);
+  -webkit-transform: translateY(25%);
   font-size: 18px;
 }
 a,
@@ -339,11 +340,13 @@ a:active {
     position: relative;
     top: 50%;
     transform: translateY(-75%);
+    -webkit-transform: translateY(-75%);
   }
   #snp-left-body {
     position: relative;
     top: 50%;
     transform: translateY(-75%);
+    -webkit-transform: translateY(-75%);
   }
   #snp-left {
     height: 100%;
